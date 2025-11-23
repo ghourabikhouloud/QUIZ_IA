@@ -1,0 +1,35 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    background: #282c34;
+    color: white;
+    padding: 1rem;
+}
+.footer {
+    background: #f1f1f1;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}
